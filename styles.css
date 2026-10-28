@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    all: initial;
+}
+
+table {
+  border: 1px solid black;
+}
+
+table{
+    width: 90%
+}
+
+th, td{
+    height: 40px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+}
+
+#header{
+    width: 100vw;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 1px solid;
+
+}
+
+
+#footer{
+    width: 100vw;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top: black 1px solid;
+}
+
+#account-container{
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 5px;
+    justify-content: start;
+}
+
+#name-container{
+    margin-left: 5px;
+}
+
+#title-container{
+    flex-grow: 1;
+}
+
+#pages-container{
+    justify-content: right;
+    margin: 5px;
+    width: 400px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: calc(50px - 10px);
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.body-container{
+    width: 100vw;
+    height: calc(100vh - 100px);
+    justify-content: space-around;
+}
+
+.clickable{
+    border: 1px solid darkgray;
+}
+
+.clickable:hover{
+    background-color: darkgray!important;
+    cursor: pointer;
+}
+
+
+.pages-btn{
+    margin-left: 10px;
+    width: 120px;
+    padding: 10px 0;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content-container{
+    width: 40%;
+    height: 90%;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 0;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid black;
+}
+
+.content-title{
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    border-bottom: black 1px solid;
+}
+
+.content-body{
+    background-color: whitesmoke;
+    width: 100%;
+    height: calc(100% - 50px);
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-bottom-border{
+    border-bottom: none;
+}
+
+.no-right-border{
+    border-right: none;
+}
+
+
+.highlighter{
+    background: lightgreen;
+}
+
+.ctrl-btn{
+    width: 30%;
+    height: 40px;
+}
+
+.ctrl-btn-container{
+    width: 90%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
