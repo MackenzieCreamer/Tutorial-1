@@ -7,20 +7,6 @@ a{
     all: initial;
 }
 
-table {
-  border: 1px solid black;
-}
-
-table{
-    width: 90%
-}
-
-th, td{
-    height: 40px;
-    border-bottom: 1px black solid;
-    border-right: 1px black solid;
-}
-
 #header{
     width: 100vw;
     height: 50px;
@@ -45,29 +31,6 @@ th, td{
     border-top: black 1px solid;
 }
 
-#account-container{
-    background-color: lightgoldenrodyellow;
-    width: 200px;
-    border-radius: 5px;
-    margin-left: 5px;
-    justify-content: start;
-}
-
-#name-container{
-    margin-left: 5px;
-}
-
-#title-container{
-    flex-grow: 1;
-}
-
-#pages-container{
-    justify-content: right;
-    margin: 5px;
-    width: 400px;
-}
-
-
 .container{
     display: flex;
     flex-direction: row;
@@ -77,33 +40,55 @@ th, td{
     justify-content: center;
 }
 
-.overflow-auto{
-    overflow: auto;
-}
-
 .body-container{
     width: 100vw;
     height: calc(100vh - 100px);
     justify-content: space-around;
 }
 
-.clickable{
-    border: 1px solid darkgray;
+
+
+
+.no-bottom-border{
+    border-bottom: none;
 }
 
-.clickable:hover{
-    background-color: darkgray!important;
-    cursor: pointer;
+.no-right-border{
+    border-right: none;
 }
 
 
-.pages-btn{
-    margin-left: 10px;
-    width: 120px;
-    padding: 10px 0;
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-    border-radius: 5px;
+
+.ctrl-btn{
+    width: 30%;
+    height: 40px;
+}
+
+.ctrl-btn-container{
+    width: 90%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Content that will be added */
+
+table {
+    border: 1px solid black;
+}
+
+table{
+    width: 90%
+}
+
+th, td{
+    height: 40px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+}
+
+.highlighter{
+    background: lightgreen;
 }
 
 .content-container{
@@ -133,27 +118,42 @@ th, td{
     align-items: center;
 }
 
-.no-bottom-border{
-    border-bottom: none;
+.pages-btn{
+    margin-left: 10px;
+    width: 120px;
+    padding: 10px 0;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.no-right-border{
-    border-right: none;
+.clickable{
+    border: 1px solid darkgray;
 }
 
-
-.highlighter{
-    background: lightgreen;
+.clickable:hover{
+    background-color: darkgray!important;
+    cursor: pointer;
 }
 
-.ctrl-btn{
-    width: 30%;
-    height: 40px;
+#account-container{
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 5px;
+    justify-content: start;
 }
 
-.ctrl-btn-container{
-    width: 90%;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: space-around;
+#name-container{
+    margin-left: 5px;
+}
+
+#title-container{
+    flex-grow: 1;
+}
+
+#pages-container{
+    justify-content: right;
+    margin: 5px;
+    width: 400px;
 }
